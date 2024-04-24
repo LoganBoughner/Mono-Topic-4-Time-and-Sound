@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono Topic 4 Time and Sound", "Mono Topic 4 Time and Sound.csproj", "{5F34CC14-F835-4E27-8760-27FEA2BAA2CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F34CC14-F835-4E27-8760-27FEA2BAA2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F34CC14-F835-4E27-8760-27FEA2BAA2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F34CC14-F835-4E27-8760-27FEA2BAA2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F34CC14-F835-4E27-8760-27FEA2BAA2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2820B10D-4B7F-497C-BB21-1A547ACC931D}
+	EndGlobalSection
+EndGlobal
