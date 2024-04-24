@@ -8,6 +8,8 @@ namespace Mono_Topic_4_Time_and_Sound
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        Texture2D bombTexture;
+        Rectangle bombRectangle;
 
         public Game1()
         {
@@ -28,6 +30,7 @@ namespace Mono_Topic_4_Time_and_Sound
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            bombTexture = Content.Load<Texture2D>("bomb");
         }
 
         protected override void Update(GameTime gameTime)
@@ -45,6 +48,11 @@ namespace Mono_Topic_4_Time_and_Sound
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            _spriteBatch.Begin();
+
+            
+
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }
